@@ -173,29 +173,41 @@
 
 // let weight =parsefloat(prompt())
 
-const num = parseFloat(prompt("enter your height in cm"))
-const heightInMeters = num/100
-const weightInKilogram  =parseFloat(prompt("enter your weight in kg")) 
- const bmi = weightinKg/((heightInMeters)*(heightInMeters))
+// const num = parseFloat(prompt("enter your height in cm"))
+// const heightInMeters = num/100
+// const weightInKilogram  =parseFloat(prompt("enter your weight in kg")) 
+//  const bmi = weightinKg/((heightInMeters)*(heightInMeters))
 
- if (bmi<=18.5) {
-        console.log(bmi)
-        console.log("You are UNDERWEIGHT")
-        alert("You are UNDERWEIGHT")
-    } else if (bmi>=18.5 && bmi === 24.9){
-            console.log(bmi)
-            console.log("your are NORMAL")
-            alert(bmi)
-            alert("your are NORMAL") 
-        } else if (bmi >= 25 && bmi === 29.9){
-            console.log(bmi)
-            console.log("you are overweight")
-            alert(bmi)
-            alert("you are overweight")
-        } else {
-            console.log(bmi)
-            console.log("your are OBESE")
-            alert(bmi)
-            alert("your are OBESE")
-        }
+//  if (bmi<=18.5) {
+//         console.log(bmi)
+//         console.log("You are UNDERWEIGHT")
+//         alert("You are UNDERWEIGHT")
+//     } else if (bmi>=18.5 && bmi === 24.9){
+//             console.log(bmi)
+//             console.log("your are NORMAL")
+//             alert(bmi)
+//             alert("your are NORMAL") 
+//         } else if (bmi >= 25 && bmi === 29.9){
+//             console.log(bmi)
+//             console.log("you are overweight")
+//             alert(bmi)
+//             alert("you are overweight")
+//         } else {
+//             console.log(bmi)
+//             console.log("your are OBESE")
+//             alert(bmi)
+//             alert("your are OBESE")
+//         }
  
+// let userName = (prompt("Enter your username"))
+// let userPass = (prompt("Enter your password"))
+
+// if (userName === 'hameedah' && userPass === 'abcd') {
+//     alert("login")
+// } else if (userName === 'hameedah' && userPass !== 'abcd') {
+//     alert("incorrect password")
+// } else if (userName !== 'hameedah' && userPass === 'abcd') {
+//     alert("incorrect username")
+// } else {
+//     alert('incorrect login details')
+// }
