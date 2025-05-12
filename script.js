@@ -148,6 +148,8 @@
 //   alert(`${number2} is greater`)
 // }
 
+// Write a program that transforms a numerical grade to a letter grade (e.g grade 0-39 should display “F”, grade 40-44 should display “E”, grade 45-49 should display “D”, grade 50-59 should display “C”, grade 60-69 should display “B”, grade 70-100 should display “A”).
+
 // let scores = parseInt(prompt("Enter your score"))
 // if(scores >=0 &&  scores <=39){
 //   alert(`${scores} Is F`)
@@ -211,3 +213,61 @@
 // } else {
 //     alert('incorrect login details')
 // }
+
+// Write a program that determines if a year is a leap year.
+
+
+// let year = (prompt("enter the year"))
+
+// if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//   alert('leap year')
+// } else {
+//   alert('not a leap year')
+// }
+
+
+// Write a program that calculates the ticket price based on age with the following conditions: 
+// age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, 
+// age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
+
+// let age = Number(prompt("enter your age"))
+
+// if (age < 12 && age >=1) {
+//   alert ('your ticket price is $5')
+// } else if (age >= 12 && age < 18) {
+//   alert('your ticket price is $10')
+// } else if (age >= 18 && age < 60) {
+//   alert('your ticket price is $20')
+// } else if (age >= 60) {
+//   alert('your ticket price is $15')
+// } else{
+//   alert('enter a valid age')
+// }
+
+// Write a program that calculates a discount based on the purchase amount.
+// Prices equal or over 100 discount have a discount of 20. Prices equal or over 50 have a discount of 10. Otherwise discount is 0
+
+// let price = (prompt("enter your amount"))
+
+// if (price >= 100) {
+//   alert('yayyy, you have adiscount of $20')
+// } else if (price >= 50) {
+//   alert ('yayy, you have a discount of $10')
+// } else {
+//   alert('discount is 0')
+// }
+
+// Write a program that greets the user based on the time of day. Display good morning,
+// good afternnon or good evening based on the time of day when you run the code.
+
+// let hour = (prompt('enter the time'))
+
+// if (hour >= 0 && hour < 12) {
+//   alert('Good morning')
+// } else if (hour >= 12 && hour < 16) {
+//   alert('Good afternoon')
+// } else{
+//   alert('Good evening')
+// }
+
+// Write a simple number guessing game. Provide a secret number and a guess. Based on those numbers give players clues if their guess is higher, lower or correct.
