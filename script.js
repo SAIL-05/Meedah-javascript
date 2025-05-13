@@ -216,6 +216,17 @@
 
 // Write a program that determines if a year is a leap year.
 
+// let year = Number(prompt("enter the days in a year"))
+
+// if (year === 366) {
+//   alert('leap year')
+// } else if (year === 365) {
+//   alert('not a leap year')
+// } else {
+//   alert('iru year wo leleyi bayi')
+// }
+
+// OR
 
 // let year = (prompt("enter the year"))
 
